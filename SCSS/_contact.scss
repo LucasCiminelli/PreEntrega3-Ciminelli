@@ -1,0 +1,68 @@
+.contacto {
+    background-image: url(../imgs/contacto-lucas.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+  }
+  h1 {
+      font-size: 50px;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 1000px;
+    font-size: 15px;
+    text-align: center;
+    .input-group {
+      margin-bottom: 30px;
+      padding-top: 10px;
+      display: flex;
+      justify-content: center;
+    }
+    label{
+      width: 100%;
+    }
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      outline: 0;
+      border: 1px solid #fff;
+      color: $white;
+      background: transparent;
+      font-size: 12px;
+      text-align: center;
+    }
+    button {
+      padding: 10px 0px;
+      color: $white;
+      outline: none;
+      background: transparent;
+      border: 1px solid #fff;
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+  .encontranos {
+    max-width: 600px;
+    h2 {
+      font-size: 30px;
+      padding-bottom: 10px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    h5, h6 {
+      padding: 10px 0 10px 0;
+      font-size: 20px;
+    }
+    h5 a,
+    h6 a {
+      text-decoration: none;
+      color: $text-color-special;
+      
+    
+  }
+  }

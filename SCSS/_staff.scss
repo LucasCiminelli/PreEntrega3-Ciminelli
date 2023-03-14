@@ -1,0 +1,23 @@
+.staff-title {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/staff-crossfit.jpg);
+    height: 90vh;
+  background-size: cover;
+  object-fit: cover;
+  background-position: top;
+}
+
+.staff-imagen-1 {
+  background-image: url(../imgs/coach.jpg);
+  width: 300px;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.staff-texto {
+  h2 {
+    color: $text-color-special;
+    font-weight: $oscura;
+  }
+}

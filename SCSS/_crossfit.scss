@@ -1,0 +1,23 @@
+.crossfit {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+      url(../imgs/actividades.jpg);
+    height: 90vh;
+    background-size: cover;
+    object-fit: cover;
+    background-position: top;
+  }
+  .formulario-contacto {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+      url(../imgs/BOOK\ 2\ PANTERA\ 158.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    object-fit: cover;
+    #exampleFormControlTextarea1 {
+      background-color: transparent;
+    }
+    .form-control {
+      background-color: transparent;
+    }
+  }

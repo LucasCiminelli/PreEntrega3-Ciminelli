@@ -1,0 +1,177 @@
+.actividades-title {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), black), url(../imgs/actividadess.jpg);
+    height: 90vh;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    font-size: 40px;
+  }
+  
+  .actividades {
+    overflow: hidden;
+    h2 {
+      padding-bottom: 20px;
+    }
+    h5 {
+      border: 1px solid $white;
+      padding: 5;
+    }
+  
+    div:nth-child(1) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+        url(../imgs/actividades.jpg);
+      height: 50vh;
+      width: 100%;
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.7s ease-in-out;
+      }
+    }
+  
+    div:nth-child(2) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+        url(../imgs/cardio.jpg);
+      height: 50vh;
+      width: 100%;
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.7s ease-in-out;
+      }
+    }
+  
+    div:nth-child(3) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+        url(../imgs/functional.jpg);
+      height: 50vh;
+      width: 100%;
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.7s ease-in-out;
+      }
+    }
+  
+    div:nth-child(4) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+        url(../imgs/Oly.jpg);
+      height: 50vh;
+      width: 100%;
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.7s ease-in-out;
+      }
+    }
+  
+    div:nth-child(5) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+        url(../imgs/gymnastics.jpg);
+      height: 50vh;
+      width: 100%;
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.7s ease-in-out;
+      }
+    }
+  
+    div:nth-child(6) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+        url(../imgs/stretchingg.jpg);
+      height: 50vh;
+      width: 100%;
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.7s ease-in-out;
+      }
+    }
+  
+    div:nth-child(7) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+        url(../imgs/kb.jpg);
+      height: 50vh;
+      width: 100%;
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.7s ease-in-out;
+      }
+    }
+    div:nth-child(8) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+        url(../imgs/cross_kids.jpg);
+      height: 50vh;
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      object-fit: cover;
+      background-position: center;
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.7s ease-in-out;
+      }
+    }
+  }
+  
+  .servicios {
+    h2 {
+      margin: 50px 0px;
+    }
+    div:nth-child(2) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+        url(../imgs/kinesiología.jpg);
+      height: 50vh;
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      &:hover {
+        filter: brightness(150%);
+        transition: 0.9s ease-in-out;
+        color: black;
+      }
+    }
+    div:nth-child(3) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+        url(../imgs/masajes.jpg);
+      height: 50vh;
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      &:hover {
+        filter: brightness(150%);
+        transition: 0.9s ease-in-out;
+        color: black;
+      }
+    }
+  
+    div:nth-child(4) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+        url(../imgs/Una-vision-integral-de-la-nutricion-deportiva.jpg);
+      height: 50vh;
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      &:hover {
+        filter: brightness(150%);
+        transition: 0.9s ease-in-out;
+        color: black;
+      }
+    }
+  }

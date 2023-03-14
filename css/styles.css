@@ -1,3 +1,443 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.objetivo .objetivo--mejor {
+  color: orangered;
+  font-style: italic;
+  font-weight: bold;
+}
+.objetivo h2 {
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: center;
+}
+.objetivo .logo--objetivo {
+  display: none;
+}
+
+.clase-de-prueba {
+  background-image: url(../imgs/clase-de-prueba-chica.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+}
+.clase-de-prueba h3 {
+  margin-top: 50px;
+  border: 1px solid white;
+  padding: 3px 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.clase-de-prueba a {
+  text-decoration: none;
+}
+
+.compete {
+  background-image: url(../imgs/clase-de\ -prueba2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  object-fit: cover;
+}
+.compete .compete-title {
+  padding-top: 120px;
+  color: orangered;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+.compete .compete-title-2 {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.distancia {
+  background-image: url(../imgs/clase-de-prueba4.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  object-fit: cover;
+}
+.distancia .distancia-title {
+  padding: 170px 0px 0 0px;
+}
+
+header .logo {
+  width: 150px;
+  margin-left: 5px;
+}
+header nav {
+  font-size: 18px;
+}
+
+.header-actividades h1 {
+  height: 100%;
+  width: 100%;
+}
+.header-actividades .logo {
+  width: 150px;
+  margin-left: 5px;
+}
+.header-actividades nav {
+  font-size: 18px;
+}
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.001), black), url(../imgs/acti.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+  text-align: center;
+}
+
+.logo--footer {
+  width: 150px;
+}
+
+.about-footer li {
+  list-style-type: none;
+  font-size: 20px;
+}
+.about-footer li a {
+  text-decoration: none;
+  color: white;
+}
+
+.redes {
+  text-align: center;
+  padding-top: 100px;
+}
+.redes h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.redes a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.redes i {
+  font-size: 30px;
+  padding: 0px 20px;
+  font-weight: bold;
+}
+
+.copyright {
+  padding-top: 50px;
+}
+
+.actividades-title {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), black), url(../imgs/actividadess.jpg);
+  height: 90vh;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  font-size: 40px;
+}
+
+.actividades {
+  overflow: hidden;
+}
+.actividades h2 {
+  padding-bottom: 20px;
+}
+.actividades h5 {
+  border: 1px solid white;
+  padding: 5;
+}
+.actividades div:nth-child(1) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/actividades.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+.actividades div:nth-child(1):hover {
+  transform: scale(1.05);
+  transition: 0.7s ease-in-out;
+}
+.actividades div:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/cardio.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+.actividades div:nth-child(2):hover {
+  transform: scale(1.05);
+  transition: 0.7s ease-in-out;
+}
+.actividades div:nth-child(3) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/functional.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+.actividades div:nth-child(3):hover {
+  transform: scale(1.05);
+  transition: 0.7s ease-in-out;
+}
+.actividades div:nth-child(4) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/Oly.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+.actividades div:nth-child(4):hover {
+  transform: scale(1.05);
+  transition: 0.7s ease-in-out;
+}
+.actividades div:nth-child(5) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/gymnastics.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+.actividades div:nth-child(5):hover {
+  transform: scale(1.05);
+  transition: 0.7s ease-in-out;
+}
+.actividades div:nth-child(6) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/stretchingg.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+.actividades div:nth-child(6):hover {
+  transform: scale(1.05);
+  transition: 0.7s ease-in-out;
+}
+.actividades div:nth-child(7) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/kb.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+.actividades div:nth-child(7):hover {
+  transform: scale(1.05);
+  transition: 0.7s ease-in-out;
+}
+.actividades div:nth-child(8) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/cross_kids.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+}
+.actividades div:nth-child(8):hover {
+  transform: scale(1.05);
+  transition: 0.7s ease-in-out;
+}
+
+.servicios h2 {
+  margin: 50px 0px;
+}
+.servicios div:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/kinesiología.jpg);
+  height: 50vh;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+.servicios div:nth-child(2):hover {
+  filter: brightness(150%);
+  transition: 0.9s ease-in-out;
+  color: black;
+}
+.servicios div:nth-child(3) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/masajes.jpg);
+  height: 50vh;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+.servicios div:nth-child(3):hover {
+  filter: brightness(150%);
+  transition: 0.9s ease-in-out;
+  color: black;
+}
+.servicios div:nth-child(4) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/Una-vision-integral-de-la-nutricion-deportiva.jpg);
+  height: 50vh;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+.servicios div:nth-child(4):hover {
+  filter: brightness(150%);
+  transition: 0.9s ease-in-out;
+  color: black;
+}
+
+.crossfit {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/actividades.jpg);
+  height: 90vh;
+  background-size: cover;
+  object-fit: cover;
+  background-position: top;
+}
+
+.formulario-contacto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/BOOK\ 2\ PANTERA\ 158.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  object-fit: cover;
+}
+.formulario-contacto #exampleFormControlTextarea1 {
+  background-color: transparent;
+}
+.formulario-contacto .form-control {
+  background-color: transparent;
+}
+
+.staff-title {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black), url(../imgs/staff-crossfit.jpg);
+  height: 90vh;
+  background-size: cover;
+  object-fit: cover;
+  background-position: top;
+}
+
+.staff-imagen-1 {
+  background-image: url(../imgs/coach.jpg);
+  width: 300px;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.staff-texto h2 {
+  color: orangered;
+  font-weight: bold;
+}
+
+.contacto {
+  background-image: url(../imgs/contacto-lucas.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+form {
+  width: 100%;
+  max-width: 1000px;
+  font-size: 15px;
+  text-align: center;
+}
+form .input-group {
+  margin-bottom: 30px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+form label {
+  width: 100%;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: white;
+  background: transparent;
+  font-size: 12px;
+  text-align: center;
+}
+form button {
+  padding: 10px 0px;
+  color: white;
+  outline: none;
+  background: transparent;
+  border: 1px solid #fff;
+  width: 100%;
+  cursor: pointer;
+}
+
+.encontranos {
+  max-width: 600px;
+}
+.encontranos h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.encontranos h3 {
+  font-size: 20px;
+}
+.encontranos h5, .encontranos h6 {
+  padding: 10px 0 10px 0;
+  font-size: 20px;
+}
+.encontranos h5 a,
+.encontranos h6 a {
+  text-decoration: none;
+  color: orangered;
+}
+
+@media (min-width: 768px) {
+  .objetivo .logo--objetivo {
+    padding-top: 100px;
+    padding-left: 10px;
+    display: block;
+  }
+  .objetivo h2 {
+    font-size: 50px;
+    text-align: left;
+    justify-content: left;
+  }
+  .clase-de-prueba h3 {
+    font-size: 30px;
+  }
+  footer {
+    height: 60vh;
+  }
+  .logo--footer {
+    width: 200px;
+  }
+}
+@media (max-width: 375px) {
+  footer {
+    height: 100vh;
+  }
+}
+@media (max-width: 500px) {
+  .objetivo h2 {
+    font-size: 30px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

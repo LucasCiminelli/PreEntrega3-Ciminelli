@@ -1,0 +1,44 @@
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.001), black),
+      url(../imgs/acti.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+  }
+  
+  .logo--footer {
+    width: 150px;
+  }
+  
+  .about-footer li {
+    list-style-type: none;
+    font-size: 20px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+  .redes {
+    text-align: center;
+    padding-top: 100px;
+    h3 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    i {
+      font-size: 30px;
+      padding: 0px 20px;
+      font-weight: bold;
+    }
+  }
+  .copyright {
+    padding-top: 50px;
+  }

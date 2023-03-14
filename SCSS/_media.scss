@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+    .objetivo {
+      .logo--objetivo {
+        padding-top: 100px;
+        padding-left: 10px;
+        display: block;
+      }
+      h2 {
+        font-size: 50px;
+        text-align: left;
+        justify-content: left;
+      }
+    }
+    .clase-de-prueba h3 {
+      font-size: 30px;
+    }
+  
+    footer {
+      height: 60vh;
+    }
+  
+    .logo--footer {
+      width: 200px;
+    }
+  }
+  @media (max-width: 375px) {
+    footer {
+      height: 100vh;
+    }
+  }
+  @media (max-width: 500px) {
+    .objetivo h2 {
+      font-size: 30px;
+    }
+  }
+  

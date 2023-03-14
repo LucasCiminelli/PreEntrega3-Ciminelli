@@ -1,0 +1,64 @@
+.objetivo {
+    .objetivo--mejor {
+      color: $text-color-special;
+      font-style: $italica;
+      font-weight: $oscura;
+    }
+    h2 {
+      font-size: 40px;
+      text-align: center;
+      justify-content: center;
+      vertical-align: center;
+    }
+    .logo--objetivo {
+      display: none;
+    }
+  }
+  .clase-de-prueba {
+    background-image: url(../imgs/clase-de-prueba-chica.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    h3 {
+      margin-top: 50px;
+      border: 1px solid $white;
+      padding: 3px 10px;
+      font-size: 20px;
+      text-align: center;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+  .compete {
+    background-image: url(../imgs/clase-de\ -prueba2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    object-fit: cover;
+    .compete-title {
+      padding-top: 120px;
+      color: $text-color-special;
+      font-weight: bold;
+      border-bottom: 1px solid $white;
+    }
+    .compete-title-2 {
+      font-size: 15px;
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+  }
+  .distancia {
+    background-image: url(../imgs/clase-de-prueba4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    object-fit: cover;
+    .distancia-title {
+      padding: 170px 0px 0 0px;
+    }
+  }
