@@ -7,8 +7,17 @@ header {
     }
     nav {
       font-size: 18px;
+      .nav-link{
+        text-align: center;
+        &:hover{
+          background-color: white;
+          color: black;
+          }
+        }
+      }
     }
-  }
+ 
+  
   
   .header-actividades {
     

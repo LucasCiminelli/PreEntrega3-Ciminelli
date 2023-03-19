@@ -78,6 +78,13 @@ header .logo {
 header nav {
   font-size: 18px;
 }
+header nav .nav-link {
+  text-align: center;
+}
+header nav .nav-link:hover {
+  background-color: white;
+  color: black;
+}
 
 .header-actividades h1 {
   height: 100%;
@@ -315,6 +322,8 @@ footer {
 }
 .formulario-contacto .form-control {
   background-color: transparent;
+  color: white;
+  text-align: center;
 }
 
 .staff-title {
