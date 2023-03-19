@@ -1,5 +1,5 @@
 .inspiracion {
-    background-color: rgb(233, 71, 12);
+  background-color: rgb(233, 71, 12);
   .inspiracion-title {
     background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
       url(../imgs/inspiracion.jpg);
@@ -18,89 +18,91 @@
   }
 }
 
-
-    .testimonios-imagenes{
-        div:nth-child(1){
-            background-image:
-        url(../imgs/testimoniosf2.jpeg);
-      height: 400px;
-      width: 400px;
-      background-size: cover;
-      object-fit: cover;
-      background-position: center;
-
-        }
-        div:nth-child(2){
-            background-image:
-        url(../imgs/testimonios4.jpeg);
-      height: 400px;
-      width: 400px;
-      background-size: cover;
-      object-fit: cover;
-      background-position: center;
-
-        }
-        div:nth-child(3){
-            background-image:
-        url(../imgs/testimonios5.jpeg);
-      height: 400px;
-      width: 400px;
-      background-size: cover;
-      object-fit: cover;
-      background-position: center;
-
-        }
-        div:nth-child(4){
-            background-image:
-        url(../imgs/testimonios2.jpeg);
-      height: 400px;
-      width: 400px;
-      background-size: cover;
-      object-fit: cover;
-      background-position: center;
-
-        }
-        div:nth-child(5){
-            background-image:
-        url(../imgs/testimonios3.jpeg);
-      height: 400px;
-      width: 400px;
-      background-size: cover;
-      object-fit: cover;
-      background-position: center;
-
-        }
-        div:nth-child(6){
-            background-image:
-        url(../imgs/testimonios6.jpeg);
-      height: 400px;
-      width: 400px;
-      background-size: cover;
-      object-fit: cover;
-      background-position: center;
-
-        }
-        div:nth-child(7){
-            background-image:
-        url(../imgs/testimonios7.jpeg);
-      height: 400px;
-      width: 400px;
-      background-size: cover;
-      object-fit: cover;
-      background-position: center;
-
-        }
-        div:nth-child(8){
-            background-image:
-        url(../imgs/testimonios8.jpeg);
-      height: 400px;
-      width: 400px;
-      background-size: cover;
-      object-fit: cover;
-      background-position: center;
-
-        }
+.testimonios-imagenes {
+  div:nth-child(1) {
+    background-image: url(../imgs/testimoniosf2.jpeg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+  }
+  div:nth-child(2) {
+    background-image: url(../imgs/testimonios4.jpeg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+  }
+  div:nth-child(3) {
+    background-image: url(../imgs/testimonios5.jpeg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    overflow-x: hidden;
+  }
+  div:nth-child(4) {
+    background-image: url(../imgs/testimonios2.jpeg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+  }
+  div:nth-child(5) {
+    background-image: url(../imgs/testimonios3.jpeg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+  }
+  div:nth-child(6) {
+    background-image: url(../imgs/testimonios6.jpeg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+  }
+  div:nth-child(7) {
+    background-image: url(../imgs/testimonios7.jpeg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+  }
+  div:nth-child(8) {
+    background-image: url(../imgs/testimonios8.jpeg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+  }
+}
+.inspiracion-contacto {
+    
+    h2, h5{
+        color: $white;
     }
+    
+    .inspiracion-formulario {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.09), black), url(../imgs/familia.jpeg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    }
+}
 
 
+    // .inspiracion-objetivo {
+        
+    // }
+  
 

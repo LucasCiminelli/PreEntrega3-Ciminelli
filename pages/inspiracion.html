@@ -26,6 +26,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
+     <!--AOS css-->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/styles.css" />
     <!-- Shortcut Icon -->
@@ -95,7 +97,8 @@
         <div
           class="inspiracion-claves row d-flex justify-content-center align-items-center py-5 text-white mx-0"
         >
-          <div
+          <div data-aos="fade-right" data-aos-easing="linear"
+          data-aos-duration="800"
             class="inspiracion-constancia col-xs-12 col-md-12 col-lg-4 col-xl-4 text-center px-5"
           >
             <img src="../imgs/kettlebell.png" alt="logo-kettlebell" />
@@ -107,7 +110,8 @@
               earum dolorem mollitia temporibus facere?
             </p>
           </div>
-          <div
+          <div data-aos="fade-down" data-aos-easing="linear"
+          data-aos-duration="800"
             class="inspiracion-disciplina col-xs-12 col-md-12 col-lg-4 col-xl-4 text-center px-5"
           >
             <img src="../imgs/kettlebell.png" alt="logo-kettlebell" />
@@ -119,7 +123,8 @@
               earum dolorem mollitia temporibus facere?
             </p>
           </div>
-          <div
+          <div data-aos="fade-left" data-aos-easing="linear"
+          data-aos-duration="800"
             class="inspiracion-voluntad col-xs-12 col-md-12 col-lg-4 col-xl-4 text-center px-5"
           >
             <img src="../imgs/kettlebell.png" alt="logo-kettlebell" />
@@ -140,17 +145,57 @@
         <div
           class="testimonios-imagenes row pt-3 pb-5 d-flex justify-content-center"
         >
-          <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4 mx-1 my-2"></div>
-          <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4 mx-1 my-2"></div>
-          <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4 mx-1 my-2"></div>
-          <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4 mx-1 my-2"></div>
-          <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4 mx-1 my-2"></div>
-          <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4 mx-1 my-2"></div>
+          <div data-aos="zoom-in-down" data-aos-easing="linear"
+          data-aos-duration="800" class="col-xs-12 col-md-6 col-lg-4 col-xl-4 mx-1 my-2"></div>
+          <div data-aos="zoom-in-down" data-aos-easing="linear"
+          data-aos-duration="800" class="col-xs-12 col-md-6 col-lg-4 col-xl-4 mx-1 my-2"></div>
+          <div data-aos="zoom-in-down" data-aos-easing="linear"
+          data-aos-duration="800" class="col-xs-12 col-md-6 col-lg-4 col-xl-4 mx-1 my-2"></div>
+          <div data-aos="zoom-in-up" data-aos-easing="linear"
+          data-aos-duration="800" class="col-xs-12 col-md-6 col-lg-4 col-xl-4 mx-1 my-2"></div>
+          <div data-aos="zoom-in-up" data-aos-easing="linear"
+          data-aos-duration="800" class="col-xs-12 col-md-6 col-lg-4 col-xl-4 mx-1 my-2"></div>
+          <div data-aos="zoom-in-up" data-aos-easing="linear"
+          data-aos-duration="800" class="col-xs-12 col-md-6 col-lg-4 col-xl-4 mx-1 my-2"></div>
         </div>
       </div>
-      <div class="inspiracion-contacto container text-center text-white">
-        <h2>¿Querés formar parte de la familia PANTERA?</h2>
-        <h3>Escribinos y veni a conocernos!</h3>
+      <div class="inspiracion-contacto container-fluid text-center text-white pt-3  mb-5">
+        <h2 class="pb-3 mx-5">¿Querés formar parte de la familia PANTERA?</h2>
+        <h5 class="pb-5">Escribinos y vení a conocernos!</h5>
+        <div class="row">
+            <div class="inspiracion-formulario col-xs-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center text-center">
+              <div class="formulario pb-3 pt-5">
+                <form class="text-white">
+                  <div class="input-group">
+                    <input type="text" id="name" required />
+                    <label for="name"><i class="bi bi-person-fill"></i> Nombre</label>
+                  </div>
+                  <div class="input-group">
+                    <input type="text" id="apellido" required />
+                    <label for="apellido"><i class="bi bi-person-fill"></i> Apellido</label>
+                  </div>
+                  <div class="input-group">
+                    <input type="text" id="number" required />
+                    <label for="number"></label><i class="bi bi-phone"></i>Numero de contacto</label>
+                  </div>
+                  <div class="input-group">
+                    <input type="text" id="email" required />
+                    <label for="email"><i class="bi bi-envelope-at"></i> Email</label>
+                  </div>
+                  <div class="input-group">
+                    <textarea id="mensaje" rows="8" required></textarea>
+                    <label for="mensaje"><i class="bi bi-chat"></i> Dejá tu mensaje</label>
+                  </div>
+                  <div>
+                    <button type="submit">ENVIAR<i class="bi bi-send"></i></i></button>
+                  </div>
+                </form>
+               </div>
+            </div>
+            <!-- <div class="inspiracion-objetivo col-xs-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center align-items-center">
+                 <img src="../imgs/familia.jpeg" alt="foto-inspiracion-objetivo"> 
+            </div> -->
+          </div>
 
         <div class="row"></div>
       </div>
@@ -214,5 +259,10 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

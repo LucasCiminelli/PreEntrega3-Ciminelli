@@ -447,6 +447,7 @@ form button {
   background-size: cover;
   object-fit: cover;
   background-position: center;
+  overflow-x: hidden;
 }
 .testimonios-imagenes div:nth-child(4) {
   background-image: url(../imgs/testimonios2.jpeg);
@@ -487,6 +488,17 @@ form button {
   background-size: cover;
   object-fit: cover;
   background-position: center;
+}
+
+.inspiracion-contacto h2, .inspiracion-contacto h5 {
+  color: white;
+}
+.inspiracion-contacto .inspiracion-formulario {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.09), black), url(../imgs/familia.jpeg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
