@@ -12,6 +12,8 @@
   }
 
   .inspiracion-claves {
+    width: 100%;
+    overflow: hidden;
     img {
       width: 200px;
     }
@@ -86,23 +88,21 @@
   }
 }
 .inspiracion-contacto {
-    
-    h2, h5{
-        color: $white;
-    }
-    
-    .inspiracion-formulario {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.09), black), url(../imgs/familia.jpeg);
+  h2,
+  h5 {
+    color: $white;
+  }
+
+  .inspiracion-formulario {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.09), black),
+      url(../imgs/familia.jpeg);
     background-position: center;
     background-size: cover;
     object-fit: cover;
     width: 100%;
-    }
+  }
 }
 
+// .inspiracion-objetivo {
 
-    // .inspiracion-objetivo {
-        
-    // }
-  
-
+// }
